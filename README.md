@@ -24,3 +24,8 @@ git push -u origin main
 
 - 修改 `index.html` 中的名字、自我介绍和项目链接。
 - 修改 `style.css` 调整配色和样式。
+
+## Contributors / 致谢
+
+- [LSROfficial](https://github.com/LSROfficial) — 项目作者
+- [DeepSeek](https://www.deepseek.com/) — AI 协作开发，负责页面搭建、样式与部署支持
