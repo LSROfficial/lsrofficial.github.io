@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的 GitHub Pages 主页</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <img class="avatar" src="https://github.com/identicons/LSROfficial.png" alt="头像" />
+    <h1>你好，我是 <span id="name">LSROfficial</span> 👋</h1>
+    <p class="subtitle">欢迎来到我的 GitHub Pages 个人主页</p>
+
+    <div class="card">
+      <h2>关于我</h2>
+      <p>这里可以写一段你的自我介绍，比如你的职业、兴趣或正在做的事。</p>
+    </div>
+
+    <div class="card">
+      <h2>我的项目</h2>
+      <ul>
+        <li><a href="https://github.com/LSROfficial">项目一</a></li>
+        <li><a href="https://github.com/LSROfficial">项目二</a></li>
+        <li><a href="https://github.com/LSROfficial">项目三</a></li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>© <span id="year"></span> LSROfficial · Powered by GitHub Pages</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
